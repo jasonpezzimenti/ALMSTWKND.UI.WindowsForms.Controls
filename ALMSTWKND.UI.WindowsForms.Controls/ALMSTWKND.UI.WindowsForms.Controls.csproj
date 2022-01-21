@@ -7,8 +7,8 @@
     <ProjectGuid>{FDC6BCA6-053A-40DB-A12E-8E26EB9571E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ALMSTWKND.UI.WindowsForms.Controls</RootNamespace>
-    <AssemblyName>ALMSTWKND.UI.WindowsForms.Controls</AssemblyName>
+    <RootNamespace>ALMSTWKND.UI.WindowsForms.Controls2</RootNamespace>
+    <AssemblyName>ALMSTWKND.UI.WindowsForms.Controls2</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -18,7 +18,8 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -29,6 +30,14 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

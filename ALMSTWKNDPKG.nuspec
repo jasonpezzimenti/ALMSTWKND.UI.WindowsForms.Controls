@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ALMSTWKND.UI.WindowsForms.Controls</id>
+    <version>1.0.0</version>
+    <authors>Jason Pezzimenti</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/jasonpezzimenti/ALMSTWKND.UI.WindowsForms.Controls</projectUrl>
+    <description>A customizable Control Suite for Windows Forms applications.</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>windows forms free open source control suite</tags>
+    <dependencies>
+      <group targetFramework="net462">
+        
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="ALMSTWKND.UI.WindowsForms.Controls\bin\Release\ALMSTWKND.UI.WindowsForms.Controls.dll" target="lib"></file>
+  </files>
+</package>

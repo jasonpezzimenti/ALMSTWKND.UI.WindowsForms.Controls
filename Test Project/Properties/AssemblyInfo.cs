@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ALMSTWKND.UI.WindowsForms.Controls")]
-[assembly: AssemblyDescription("A customizable Control Suite for Windows Forms applications.")]
+[assembly: AssemblyTitle("Test Project")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Almost Weekend")]
-[assembly: AssemblyProduct("ALMSTWKND.UI.WindowsForms.Controls")]
-[assembly: AssemblyCopyright("Copyright © Jason Pezzimenti 2022")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Test Project")]
+[assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fdc6bca6-053a-40db-a12e-8e26eb9571e5")]
+[assembly: Guid("a3d75b33-ac8f-42bd-a8f7-5b6c1a7bcad3")]
 
 // Version information for an assembly consists of the following four values:
 //
