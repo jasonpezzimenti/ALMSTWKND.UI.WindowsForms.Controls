@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ALMSTWKND.UI.WindowsForms.Controls")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A customizable Control Suite for Windows Forms applications.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Almost Weekend")]
 [assembly: AssemblyProduct("ALMSTWKND.UI.WindowsForms.Controls")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCopyright("Copyright © Jason Pezzimenti 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
