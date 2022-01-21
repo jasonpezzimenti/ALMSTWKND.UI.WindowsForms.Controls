@@ -55,6 +55,12 @@
     <Compile Include="Button.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="IncrementDecrementButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IncrementDecrementButton.Designer.cs">
+      <DependentUpon>IncrementDecrementButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Separator.cs">
       <SubType>Component</SubType>
@@ -62,6 +68,14 @@
     <Compile Include="Switch.cs">
       <SubType>Component</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IncrementDecrementButton.resx">
+      <DependentUpon>IncrementDecrementButton.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
