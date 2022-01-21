@@ -49,7 +49,7 @@
             this.incrementDecrementButton3.ActiveBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(220)))), ((int)(((byte)(211)))));
             this.incrementDecrementButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(75)))), ((int)(((byte)(147)))));
             this.incrementDecrementButton3.BorderThickness = 1F;
-            this.incrementDecrementButton3.ButtonType = ALMSTWKND.UI.WindowsForms.Controls2.IncrementDecrementButton.ButtonTypes.Decrement;
+            this.incrementDecrementButton3.ButtonType = ALMSTWKND.UI.WindowsForms.Controls2.IncrementDecrementButton.ButtonTypes.Increment;
             this.incrementDecrementButton3.HasBorder = false;
             this.incrementDecrementButton3.InactiveBackgroundColor = System.Drawing.Color.Transparent;
             this.incrementDecrementButton3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));

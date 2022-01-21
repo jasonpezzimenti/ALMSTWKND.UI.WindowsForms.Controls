@@ -70,9 +70,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="IncrementDecrementButton.resx">
       <DependentUpon>IncrementDecrementButton.cs</DependentUpon>
     </EmbeddedResource>

@@ -100,17 +100,22 @@ namespace ALMSTWKND.UI.WindowsForms.Controls2
             switch(ButtonType)
             {
                 case ButtonTypes.Increment:
+                    int lineHeight = base.Height - 20;
+
+                    // Draw the Horizontal line.
                     paintEventArgs.Graphics.DrawLine(
                         new Pen(
-                            LineColor, LineThickness), 10, ((this.Height / 2) - (LineThickness / 2)), this.Width - 10, ((this.Height / 2) - (LineThickness / 2)));
+                            LineColor, LineThickness), 10, ((this.Height / 2) - (LineThickness / 2f)), this.Width - 10, ((this.Height / 2) - (LineThickness / 2f)));
+
+                    // Draw the Vertical line.
                     paintEventArgs.Graphics.DrawLine(
                         new Pen(
-                            LineColor, LineThickness), ((this.Height / 2) - (LineThickness / 2)), 10, ((this.Height / 2) - (LineThickness / 1f)), this.Width - 10);
+                            LineColor, LineThickness), ((this.Height / 2) - (LineThickness / 2f)), 10, ((this.Height / 2) - (LineThickness / 1f)), this.Height - 10);
                     break;
                 case ButtonTypes.Decrement:
                     paintEventArgs.Graphics.DrawLine(
                         new Pen(
-                            LineColor, LineThickness), 10, ((this.Height / 2) - (LineThickness / 2)), this.Width - 10, ((this.Height / 2) - (LineThickness / 2)));
+                            LineColor, LineThickness), 10, ((this.Height / 2) - (LineThickness / 2)), this.Height - 10, ((this.Height / 2) - (LineThickness / 2)));
                     break;
             }
         }
