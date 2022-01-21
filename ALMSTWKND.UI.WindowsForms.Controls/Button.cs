@@ -11,6 +11,8 @@ namespace ALMSTWKND.UI.WindowsForms.Controls
 {
 	public class Button : Control
 	{
+		protected internal bool mouseLeft;
+
 		protected internal bool mouseButtonIsDown;
 
 		protected internal bool mouseHasEntered;
@@ -445,14 +447,17 @@ namespace ALMSTWKND.UI.WindowsForms.Controls
 				}
 				this.BackColor = this.ConfirmedBackgroundColor;
 			}
+
+			// Fixing Issue #3. Not yet completed.
+			//mouseLeft = true;
 		}
 
 		private void Button_MouseUp(object sender, MouseEventArgs e)
 		{
 			if (this.mouseButtonIsDown)
 			{
-				this.mouseButtonIsDown = false;
-				this.BackColor = this.HighlightColor;
+					this.mouseButtonIsDown = false;
+					this.BackColor = this.HighlightColor;
 				if (!this.confirmed)
 				{
 					if (e.Location.X < this.SeparatorDistance)
@@ -509,6 +514,7 @@ namespace ALMSTWKND.UI.WindowsForms.Controls
 					}
 				}
 			}
+
 			this.Refresh();
 		}
 
