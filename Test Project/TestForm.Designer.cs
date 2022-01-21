@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.incrementDecrementButton3 = new ALMSTWKND.UI.WindowsForms.Controls2.IncrementDecrementButton();
             this.button1 = new ALMSTWKND.UI.WindowsForms.Controls.Button();
             this.SuspendLayout();
             // 
@@ -38,10 +39,27 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 39);
+            this.label1.Size = new System.Drawing.Size(213, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Thank you for your interest in my project. :-)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // incrementDecrementButton3
+            // 
+            this.incrementDecrementButton3.ActiveBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(220)))), ((int)(((byte)(211)))));
+            this.incrementDecrementButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(75)))), ((int)(((byte)(147)))));
+            this.incrementDecrementButton3.BorderThickness = 1F;
+            this.incrementDecrementButton3.ButtonType = ALMSTWKND.UI.WindowsForms.Controls2.IncrementDecrementButton.ButtonTypes.Decrement;
+            this.incrementDecrementButton3.HasBorder = false;
+            this.incrementDecrementButton3.InactiveBackgroundColor = System.Drawing.Color.Transparent;
+            this.incrementDecrementButton3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.incrementDecrementButton3.LineThickness = 0F;
+            this.incrementDecrementButton3.Location = new System.Drawing.Point(107, 259);
+            this.incrementDecrementButton3.Name = "incrementDecrementButton3";
+            this.incrementDecrementButton3.OnHoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(240)))), ((int)(((byte)(231)))));
+            this.incrementDecrementButton3.Size = new System.Drawing.Size(27, 27);
+            this.incrementDecrementButton3.TabIndex = 5;
+            this.incrementDecrementButton3.Text = "incrementDecrementButton3";
             // 
             // button1
             // 
@@ -88,6 +106,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(237, 298);
+            this.Controls.Add(this.incrementDecrementButton3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "TestForm";
@@ -100,6 +119,7 @@
 
         private System.Windows.Forms.Label label1;
         private ALMSTWKND.UI.WindowsForms.Controls.Button button1;
+        private ALMSTWKND.UI.WindowsForms.Controls2.IncrementDecrementButton incrementDecrementButton3;
     }
 }
 
