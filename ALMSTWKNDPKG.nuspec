@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Package</id>
+    <id>ALMSTWKND.UI.WindowsForms.Controls</id>
     <version>1.0.0</version>
     <authors>Jason Pezzimenti</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
