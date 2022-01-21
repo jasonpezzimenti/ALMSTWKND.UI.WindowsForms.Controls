@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Button = ALMSTWKND.UI.WindowsForms.Controls.Button;
 
 namespace Test_Project
 {
@@ -17,7 +18,7 @@ namespace Test_Project
             InitializeComponent();
         }
 
-        private void button1_Clicked(object sender, ALMSTWKND.UI.WindowsForms.Controls.Button.ButtonClickedEventArgs e)
+        private void button1_Clicked(object sender, Button.ButtonClickedEventArgs e)
         {
             MessageBox.Show("Button clicked.");
         }

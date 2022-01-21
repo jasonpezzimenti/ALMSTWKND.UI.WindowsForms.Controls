@@ -28,24 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.separator1 = new ALMSTWKND.UI.WindowsForms.Controls.Separator();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new ALMSTWKND.UI.WindowsForms.Controls.Button();
             this.SuspendLayout();
-            // 
-            // separator1
-            // 
-            this.separator1.CanHighlight = false;
-            this.separator1.Color = System.Drawing.Color.SeaGreen;
-            this.separator1.Direction = "Horizontal";
-            this.separator1.DisabledColor = System.Drawing.Color.Empty;
-            this.separator1.HighlightColor = System.Drawing.Color.Empty;
-            this.separator1.Location = new System.Drawing.Point(12, 252);
-            this.separator1.Name = "separator1";
-            this.separator1.Size = new System.Drawing.Size(213, 1);
-            this.separator1.TabIndex = 0;
-            this.separator1.Text = "separator1";
-            this.separator1.Thickness = 1;
             // 
             // label1
             // 
@@ -94,19 +79,18 @@
             this.button1.StyleButtonSeparately = false;
             this.button1.SynchronizeCheckMarkWithBorderSettings = false;
             this.button1.TabIndex = 2;
-            this.button1.Text = "OK";
+            this.button1.Text = "button1";
             this.button1.UsingTexturedBackground = false;
             this.button1.Clicked += new System.EventHandler<ALMSTWKND.UI.WindowsForms.Controls.Button.ButtonClickedEventArgs>(this.button1_Clicked);
             // 
-            // Form1
+            // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(237, 298);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.separator1);
-            this.Name = "Form1";
+            this.Name = "TestForm";
             this.Text = "Test Project";
             this.ResumeLayout(false);
 
@@ -114,7 +98,6 @@
 
         #endregion
 
-        private ALMSTWKND.UI.WindowsForms.Controls.Separator separator1;
         private System.Windows.Forms.Label label1;
         private ALMSTWKND.UI.WindowsForms.Controls.Button button1;
     }
