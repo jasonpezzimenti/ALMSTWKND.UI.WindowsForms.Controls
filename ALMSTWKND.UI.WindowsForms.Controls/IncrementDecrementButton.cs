@@ -110,7 +110,7 @@ namespace ALMSTWKND.UI.WindowsForms.Controls2
                     // Draw the Vertical line.
                     paintEventArgs.Graphics.DrawLine(
                         new Pen(
-                            LineColor, LineThickness), ((this.Height / 2) - (LineThickness / 2f)), 10, ((this.Height / 2) - (LineThickness / 1f)), this.Height - 10);
+                            LineColor, LineThickness), ((this.Width / 2) - (LineThickness / 2f)), 10, ((this.Width / 2) - (LineThickness / 1f)), this.Height - 11);
                     break;
                 case ButtonTypes.Decrement:
                     paintEventArgs.Graphics.DrawLine(

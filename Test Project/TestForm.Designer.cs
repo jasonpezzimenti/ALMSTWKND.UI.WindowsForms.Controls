@@ -54,12 +54,13 @@
             this.incrementDecrementButton3.InactiveBackgroundColor = System.Drawing.Color.Transparent;
             this.incrementDecrementButton3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.incrementDecrementButton3.LineThickness = 0F;
-            this.incrementDecrementButton3.Location = new System.Drawing.Point(107, 259);
+            this.incrementDecrementButton3.Location = new System.Drawing.Point(109, 259);
             this.incrementDecrementButton3.Name = "incrementDecrementButton3";
             this.incrementDecrementButton3.OnHoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(240)))), ((int)(((byte)(231)))));
-            this.incrementDecrementButton3.Size = new System.Drawing.Size(27, 27);
+            this.incrementDecrementButton3.Size = new System.Drawing.Size(25, 27);
             this.incrementDecrementButton3.TabIndex = 5;
             this.incrementDecrementButton3.Text = "incrementDecrementButton3";
+            this.incrementDecrementButton3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.incrementDecrementButton3_MouseClick);
             // 
             // button1
             // 
